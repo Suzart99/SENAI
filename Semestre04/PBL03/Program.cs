@@ -1,12 +1,30 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 
-namespace PBL03
+namespace Rextester
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           String op = "cadastrar";
+            
+            op = Console.ReadLine();
+         
+            
+            switch(op){
+                case "Cadastrar":
+                Console.Write("Entrou");
+                break;
+                default:
+                Console.Write("Entrou no Default");
+                break;
+                
+                
+                
         }
     }
+}
 }

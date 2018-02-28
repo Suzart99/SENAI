@@ -2,8 +2,9 @@ using System;
 
 namespace PBL03
 {
-    class Bilheteria
+    class bilheteria
     {
-
+        String nome;
+        String local;
     }
 }
